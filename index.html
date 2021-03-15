@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video.js Playlist UI - Horizontal Implementation</title>
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/videojs-playlist-ui@3.8.0/dist/videojs-playlist-ui.css" rel="stylesheet">
+    <link href="horizontal.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="video-container">
+        <div class="player-container">
+            <video id="video" class="video-js vjs-big-play-centered" height="300" width="600" controls>
+            <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+            <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
+            </video>
+
+            <div class="vjs-playlist">
+                <!--The contents of this element will be filled based on the currently loaded playlist-->
+            </div>
+        </div>
+        <div class="chat-container">
+            <iframe src="https://minnit.chat/DJWilSAF?embed&mobiledark&language=en&nickname=" style="border:none;width:100%;height:500px;" allowTransparency="true"></iframe>
+        </div>
+    </div>
+
+    <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-playlist@4.3.1/dist/videojs-playlist.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-playlist-ui@3.8.0/dist/videojs-playlist-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
