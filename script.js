@@ -5,7 +5,7 @@ var player = videojs('video', {
 });
 
 player.playlist([{
-        name: 'Disney\'s Oceans 1',
+        name: 'Bip Bop',
         description: 'Explore the depths of our planet\'s oceans. ' +
             'Experience the stories that connect their world to ours. ' +
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
